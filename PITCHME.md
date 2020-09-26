@@ -73,7 +73,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 Let your code do the talking!
 @snapend
 
-@snap[west span-40 text-center]
+@snap[west span-40 text-center text-03]
 
 ```sql zoom-18
 CREATE TABLE "topic" (
