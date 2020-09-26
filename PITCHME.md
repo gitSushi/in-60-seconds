@@ -73,7 +73,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 Let your code do the talking!
 @snapend
 
-@snap[west]
+@snap[west span-50]
 ```sql zoom-18
 CREATE TABLE "topic" (
     "id" serial NOT NULL PRIMARY KEY,
@@ -88,9 +88,9 @@ REFERENCES "forum" ("id");
 @snapend
 
 @snap[east span-50 text-blue text-08]
-@[1-5, bg-green rounded box-padding](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13, bg-green rounded box-padding](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12, bg-green rounded box-padding](This means no more switching between your slide deck and IDE on stage.)
+@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
+@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
+@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
 @snapend
 
 
