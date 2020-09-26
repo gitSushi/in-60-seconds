@@ -73,7 +73,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 Let your code do the talking!
 @snapend
 
-```js zoom-8
+```js zoom-zoom-8
   const insertValueAtIndex = function (value, index) {
     if (index < 0 || index > length) {
       console.log("Invalid index");
@@ -100,7 +100,7 @@ Let your code do the talking!
 
 @snap[south span-100 text-blue text-10]
 @[1-4](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[4-7, zoom-8](Using GitPitch live code presenting with optional annotations.)
+@[4-7, zoom-zoom-8](Using GitPitch live code presenting with optional annotations.)
 @[7-16, zoom-16](This means no more switching between your slide deck and IDE on stage.)
 @snapend
 
