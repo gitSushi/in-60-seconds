@@ -1,4 +1,4 @@
-# Get set, Ready, ... **GO**
+# Ready, Get set, ... **GO**
 
 ---
 
