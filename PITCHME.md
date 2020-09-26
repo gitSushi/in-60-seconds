@@ -74,40 +74,6 @@ Let your code do the talking!
 @snapend
 
 ```js
-function SinglyLinkedList() {
-  let head = null;
-  let length = 0;
-
-  const isEmpty = function () {
-    return length === 0;
-  };
-
-  const append = function (value) {
-    const node = Node(value);
-    if (isEmpty()) {
-      head = node;
-    } else {
-      let tempNode = head;
-      while (tempNode.next) {
-        tempNode = tempNode.next;
-      }
-      tempNode.next = node;
-    }
-    length++;
-  };
-
-  const prepend = function (value) {
-    const node = Node(value);
-    if (isEmpty()) {
-      head = node;
-    } else {
-      let secondNode = head;
-      head = node;
-      head.next = secondNode;
-    }
-    length++;
-  };
-
   const insertValueAtIndex = function (value, index) {
     if (index < 0 || index > length) {
       console.log("Invalid index");
@@ -130,88 +96,12 @@ function SinglyLinkedList() {
       }
     }
   };
-
-  const showList = function () {
-    if (isEmpty()) {
-      console.log("Empty list");
-    } else {
-      let lists = [];
-      let tempNode = head;
-      while (tempNode) {
-        lists.push(tempNode.value);
-        tempNode = tempNode.next;
-      }
-      console.log(lists.join(" -> "));
-      }
-  };
-
-  const showLength = function () {
-    console.log("length : ", length);
-  };
-
-  const deleteAtIndex = function (index) {
-    if (isEmpty() || index < 0 || index > length - 1) {
-      console.log("Lists is empty or invalid index");
-    } else {
-      if (index === 0) {
-        head = head.next;
-        length--;
-      } else {
-        let previousNode;
-        let currentNode = head;
-        let counter = 0;
-        while (counter < index) {
-          previousNode = currentNode;
-          currentNode = currentNode.next;
-          counter++;
-        }
-        previousNode.next = currentNode.next;
-        length--;
-      }
-      showList();
-    }
-  };
-
-  const deleteAtValue = function (value) {
-    if (isEmpty()) {
-      return null;
-    } else {
-      let previous;
-      let nodetoDelete = head;
-      let counter = 0;
-      while (counter < length && nodetoDelete.value !== value) {
-        previous = nodetoDelete;
-        nodetoDelete = nodetoDelete.next;
-        counter++;
-      }
-      // value not found
-      if (counter === length) return null;
-      if (counter === 0) {
-        head = head.next;
-      } else {
-        previous.next = nodetoDelete.next;
-      }      
-      length--;
-    }
-    showList();
-  };
-
-  return {
-    append,
-    prepend,
-    deleteAtValue,
-    deleteAtIndex,
-    insertValueAtIndex,
-    showList,
-    showLength
-  };
-}
 ```
 
-@snap[east span-50 text-blue text-08]
-@[1-50](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[50-100, zoom-12](Using GitPitch live code presenting with optional annotations.)
-@[100-131, zoom-12](This means no more switching between your slide deck and IDE on stage.)
+@snap[south span-100 text-blue text-10]
+@[1-4](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
+@[4-8, zoom-12](Using GitPitch live code presenting with optional annotations.)
+@[8-16, zoom-8](This means no more switching between your slide deck and IDE on stage.)
 @snapend
 
 +++?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
