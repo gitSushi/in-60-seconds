@@ -10,6 +10,16 @@
 
 +++
 
+@snap[west]
+# Hello
+@snapend
+
+@snap[east fragment]
+# Martians!
+@snapend
+
++++
+
 @fa[smile-o fa-4x fa-spin fragment]
 
 +++
