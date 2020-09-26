@@ -1,6 +1,6 @@
 # Ready, Get set, ... **GO**
 
----
++++
 
 ### Add Some Slide Candy
 
@@ -21,7 +21,7 @@
 Snap Layouts let you create custom slide designs directly within your markdown.
 @snapend
 
----
++++
 @title[Add A Little Imagination]
 
 @snap[north-west span-50 text-center]
