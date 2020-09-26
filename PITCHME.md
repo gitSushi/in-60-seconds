@@ -88,11 +88,9 @@ REFERENCES "forum" ("id");
 @snapend
 
 @snap[east span-50 text-blue text-08]
-@box[bg-green rounded box-padding](
-@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
-)
+@box[1-5, bg-green rounded box-padding](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
+@box[6,7, zoom-13, bg-green rounded box-padding](Using GitPitch live code presenting with optional annotations.)
+@box[8-9, zoom-12, bg-green rounded box-padding](This means no more switching between your slide deck and IDE on stage.)
 @snapend
 
 
