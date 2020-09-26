@@ -2,6 +2,18 @@
 
 +++
 
+@css[text-blue fragment](Hello, World!)
+
++++
+
+@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
+
++++
+
+@fa[smile-o fa-4x fa-spin fragment]
+
++++
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
