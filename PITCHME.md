@@ -10,11 +10,11 @@
 
 +++
 
-@snap[west]
+@snap[west span-80]
 # Hello
 @snapend
 
-@snap[east fragment]
+@snap[east span-80 fragment]
 # Martians!
 @snapend
 
