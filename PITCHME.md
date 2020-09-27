@@ -1,21 +1,9 @@
-# Ready, Get set, ... **GO**
-
-+++
-
-@css[text-blue fragment](Hello, World!)
-
-+++
-
-@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
-
-+++
-
-@snap[west]
-## Hello
+@snap[north]
+# Data Structure
 @snapend
 
-@snap[east fragment]
-## Martians!
+@snap[south fragment]
+# Singly Linked List
 @snapend
 
 +++
