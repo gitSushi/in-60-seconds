@@ -1,5 +1,5 @@
 @snap[north span-100]
-## Data Structure
+## **Data Structure**
 @snapend
 
 @snap[midpoint span-100 fragment]
