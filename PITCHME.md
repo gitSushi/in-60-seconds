@@ -69,7 +69,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 
 +++
 
-@snap[north-east span-100 text-pink text-06]
+@snap[north span-100 text-pink text-10]
 Let your code do the talking!
 @snapend
 
@@ -98,13 +98,13 @@ Let your code do the talking!
   };
 ```
 
-@snap[south span-100 text-blue text-10]
+@snap[south span-100 text-pink text-10]
 @[1,](Declare the insertValueAtIndex with its two parameter, value, index.)
 @[2-3](If the index is out of bounds log "Invalid index".)
 @[4-6](Call the prepend function if the index is 0.)
 @[7-11](Knowing the index is valid, initialize the necessary variables to insert the new node. The *previousNode* will allow to point at the new node which will point at the *currentNode*.)
 @[12-16](Iterate till the index is found which sets the variables.)
-@[17,](Finally add the new node by referencing the pointers. Finally increment length.)
+@[17-22](Finally add the new node by referencing the pointers. Finally increment length.)
 @snapend
 
 +++?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
