@@ -21,7 +21,7 @@ theme-margins    : [ "0", "15px" ]
 # Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : A 11 Y Dark
+highlight : dracula
 
 #
 # Theme-Override Setting
