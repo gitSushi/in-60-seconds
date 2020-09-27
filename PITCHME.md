@@ -69,8 +69,8 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 
 +++
 
-@snap[north span-100 text-pink text-10]
-### Let your code do the talking!
+@snap[north span-100]
+## Let your code do the talking!
 @snapend
 
 ```js text-06
