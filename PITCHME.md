@@ -99,9 +99,12 @@ Let your code do the talking!
 ```
 
 @snap[south span-100 text-blue text-10]
-@[1-4](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[4-7, text-08](Using GitPitch live code presenting with optional annotations.)
-@[7-16, text-10](This means no more switching between your slide deck and IDE on stage.)
+@[1,](Declare the insertValueAtIndex with its two parameter, value, index.)
+@[2-3](If the index is out of bounds log "Invalid index".)
+@[4-6](Call the prepend function if the index is 0.)
+@[7-11](Knowing the index is valid, initialize the necessary variables to insert the new node. The *previousNode* will allow to point at the new node which will point at the *currentNode*.)
+@[12-16](Iterate till the index is found which sets the variables.)
+@[17,](Finally add the new node by referencing the pointers. Finally increment length.)
 @snapend
 
 +++?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
