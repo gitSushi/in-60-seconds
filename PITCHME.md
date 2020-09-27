@@ -67,19 +67,24 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @img[shadow](assets/img/conference.png)
 @snapend
 
-+++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171&lang=groovy
++++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 
-@snap[north span-100]
-## Review the code
+@snap[north span-100 h3-pink]
+### The details of the code
 @snapend
 
-@snap[south span-100 text-gold text-10]
-@[1,](Declare the insertValueAtIndex with its two parameter, value, index.)
-@[2-3](If the index is out of bounds log "Invalid index".)
-@[4-6](Call the prepend function if the index is 0.)
-@[7-11](Knowing the index is valid, initialize the necessary variables to insert the new node. The *previousNode* will allow to point at the new node which will point at the *currentNode*.)
-@[12-16](Iterate till the index is found which sets the variables.)
-@[17-22](Finally add the new node by referencing the pointers. Finally increment length.)
+@snap[south span-100 text-orange text-10]
+@[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
+@[8-10](*SinglyLinkedList* will be the outer function of our closures. Initialization of the two variables that we need to keep track of: *head* and *length* of the list.)
+@[12-14](A helper function that returns a boolean wether the list empty or not.)
+@[16-28](append)
+@[30-40](prepend)
+@[42,](Declare the insertValueAtIndex with its two parameter, value, index.)
+@[43-44](If the index is out of bounds log "Invalid index".)
+@[45-47](Call the prepend function if the index is 0.)
+@[48-52](Knowing the index is valid, initialize the necessary variables to insert the new node. The *previousNode* will allow to point at the new node which will point at the *currentNode*.)
+@[53-57](Iterate till the index is found which sets the variables.)
+@[58-63](Finally add the new node by referencing the pointers. Finally increment length.)
 @snapend
 
 +++?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
