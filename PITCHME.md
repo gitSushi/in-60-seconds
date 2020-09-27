@@ -67,13 +67,13 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @img[shadow](assets/img/conference.png)
 @snapend
 
-+++?color=linear-gradient(180deg, white 50%, #005f6b 50%)?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
++++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 
-@snap[north span-100 h3-pink]
+@snap[north span-100 my-orange-text]
 ### The details of the code
 @snapend
 
-@snap[south span-100 text-purple text-10]
+@snap[south span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
 @[8-10](*SinglyLinkedList* will be the outer function of our closures. Initialization of the two variables that we need to keep track of: *head* and *length* of the list.)
 @[12-14](A helper function that returns a boolean wether the list empty or not.)
