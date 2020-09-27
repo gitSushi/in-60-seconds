@@ -67,36 +67,11 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @img[shadow](assets/img/conference.png)
 @snapend
 
-+++
++++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171&lang=groovy
 
 @snap[north span-100]
-## Let your code do the talking!
+## Review the code
 @snapend
-
-```js text-06
-  const insertValueAtIndex = function (value, index) {
-    if (index < 0 || index > length) {
-      console.log("Invalid index");
-    } else {
-      if (index === 0) {
-        prepend(value);
-      } else {
-        const node = Node(value);
-        let previousNode;
-        let currentNode = head;
-        let counter = 0;
-        while (counter < index) {
-          previousNode = currentNode;
-          currentNode = currentNode.next;
-          counter++;
-        }
-        previousNode.next = node;
-        node.next = currentNode;
-        length++;
-      }
-    }
-  };
-```
 
 @snap[south span-100 text-gold text-10]
 @[1,](Declare the insertValueAtIndex with its two parameter, value, index.)
