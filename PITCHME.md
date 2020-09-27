@@ -67,8 +67,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @img[shadow](assets/img/conference.png)
 @snapend
 
-+++?color=linear-gradient(180deg, white 50%, #005f6b 50%)
-+++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
++++?color=linear-gradient(180deg, white 50%, #005f6b 50%)?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 
 @snap[north span-100 h3-pink]
 ### The details of the code
