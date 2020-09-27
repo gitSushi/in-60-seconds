@@ -1,8 +1,8 @@
-@snap[north]
+@snap[north span-100]
 ## Data Structure
 @snapend
 
-@snap[south fragment]
+@snap[south span-100 fragment]
 ## Singly Linked List
 @snapend
 
