@@ -2,7 +2,7 @@
 ## Data Structure
 @snapend
 
-@snap[south span-100 fragment]
+@snap[midpoint span-100 fragment]
 # Singly Linked List
 @snapend
 
