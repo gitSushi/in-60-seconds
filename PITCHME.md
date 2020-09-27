@@ -1,9 +1,9 @@
 @snap[north]
-# Data Structure
+## Data Structure
 @snapend
 
 @snap[south fragment]
-# Singly Linked List
+## Singly Linked List
 @snapend
 
 +++
