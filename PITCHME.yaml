@@ -21,7 +21,7 @@ theme-margins    : [ "0", "15px" ]
 # Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : hybrid
+highlight : A 11 Y Dark
 
 #
 # Theme-Override Setting
